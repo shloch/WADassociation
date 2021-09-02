@@ -1,0 +1,133 @@
+section[id=banner] .logo {
+  height: 100%;
+  width: 170px;
+}
+section[id=banner] #navbarSupportedContent {
+  padding-left: 12%;
+}
+section[id=banner] .navbar {
+  background-color: white !important;
+}
+section[id=banner] .navbar .nav-link {
+  color: #099;
+}
+section[id=banner] .navbar .active {
+  color: #099 !important;
+  font-weight: 800;
+}
+section[id=banner] .navbar .link2 {
+  color: #cc33cc !important;
+}
+section[id=banner] .navbar .nav-link:hover {
+  color: #cc33cc;
+}
+section[id=banner] .navbar .nav-item .dropdown-item {
+  color: #099;
+}
+section[id=banner] .navbar .nav-item .dropdown-item:hover {
+  color: #cc33cc;
+}
+
+section[id=content] div[id=carouselExampleCaptions] .carousel-inner img {
+  height: 250px;
+  width: 100%;
+}
+section[id=content] div[id=quelque-mot] {
+  min-height: 300px;
+  width: 85%;
+  margin: auto;
+  padding-top: 2%;
+}
+section[id=content] div[id=quelque-mot] div[class=quelqmot-h] {
+  text-align: center;
+  padding: 5% 0;
+}
+section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .p-3 {
+  min-height: 110px;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+}
+section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .pink {
+  border: 1px solid #cc33cc;
+}
+section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .cyan {
+  border: 1px solid cyan;
+}
+section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .orange {
+  border: 1px solid orange;
+}
+section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .blue {
+  border: 1px solid #099;
+}
+section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .green {
+  border: 1px solid greenyellow;
+}
+section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .brown {
+  border: 1px solid brown;
+}
+section[id=content] div[class=gros-button] {
+  margin: 5% auto;
+  text-align: center;
+}
+section[id=content] div[class=gros-button] button {
+  padding: 0 8%;
+}
+section[id=content] div[class=gros-button] button a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  min-height: 300px;
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+footer a:hover {
+  color: white;
+}
+footer div[class=social-media] a {
+  justify-content: space-between;
+  width: 30%;
+  padding-right: 30px;
+  margin: auto;
+}
+footer div[class=social-media] a i {
+  font-size: 1.99em;
+}
+footer div[class=social-media] .facebook {
+  color: #4267B2;
+}
+footer div[class=social-media] .twitter {
+  color: skyblue;
+}
+footer div[class=social-media] .youtube {
+  color: red;
+}
+footer div[class=social-media] .instagram {
+  color: #DD2A7B;
+}
+
+@media screen and (min-width: 760px) {
+  section[id=content] div[id=carouselExampleCaptions] .carousel-inner img {
+    height: 350px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1023px) {
+  section[id=content] div[id=carouselExampleCaptions] .carousel-inner img {
+    height: 500px;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
