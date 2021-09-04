@@ -1,0 +1,44 @@
+
+div[class="realisation-content"] {
+    iframe[class="wad-youtube"] {
+        width: 100%;
+        height: 320px;
+        margin: auto;
+        margin-top: 5%;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 4%;
+    }
+    .picture-grid {
+        img {
+            border: 1px solid rgb(173, 172, 172);
+        }
+    }
+  
+}
+
+
+// ----------------------TABLET screen adjustments -------------------------------
+@media screen and (min-width: 760px) {
+    div[class="realisation-content"] {
+        iframe[class="wad-youtube"] {
+            height: 500px;
+        }
+    }
+}
+
+  // ----------------------LAPTOP screen adjustments -------------------------------
+@media screen and (min-width: 1023px) {
+    
+  }
+
+  // ----------------------XXL LAPTOP screen adjustments -------------------------------
+
+  @media screen and (min-width: 1423px) {
+    div[class="realisation-content"] {
+        iframe[class="wad-youtube"] {
+            height: 600px;
+        }
+    }
+  }

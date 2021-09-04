@@ -2,145 +2,26 @@
 
 $links: #099;
 $link2: rgb(204, 51, 204);
+.pink {border : 1px solid $link2}
+.cyan {border : 1px solid cyan}
+.orange {border : 1px solid orange}
+.blue {border : 1px solid $links}
+.green {border : 1px solid greenyellow }
+.brown {border : 1px solid brown }
 
 //------------------- header --------------------
 section[id="banner"] {
-    // border: 1px solid black;
-    .logo {
-        height : 100%;
-        width:  170px;
-    }
-    #navbarSupportedContent {
-        padding-left: 12%;
-    }
-    .navbar {
-        background-color: white !important;
-        .nav-link {
-            color: $links;
-            
-        }
-        .active {
-            color:  $links !important;
-            font-weight: 800;
-        }
-        .link2 {
-            color: $link2 !important;
-        }
-        .nav-link:hover {
-            color: $link2;
-        }
-        .nav-item {
-            .dropdown-item {
-                color: $links;
-            }
-            .dropdown-item:hover {
-                color: $link2;
-            }
-        }
-       
-    }
+    @import 'navbar';
 }
 
 // ------------- Content ----------
 section[id="content"] {
-    div[id="carouselExampleCaptions"] {
-        .carousel-inner {
-            img {
-                height: 250px;
-                width: 100%;
-            }
-        }
-    }
-
-    div[id="quelque-mot"] {
-        // border: 1px solid darkcyan;
-        min-height: 300px;
-        width: 85%;
-        margin: auto;
-        padding-top: 2%;
-        div[class="quelqmot-h"] {
-            // border: 1px solid orangered;
-            text-align: center;
-            padding: 5% 0;
-        }
-        div[class="quelqmot-grid"] {
-            .container {
-                // border: 1px solid greenyellow;
-                .p-3 {
-                    // border: 1px solid goldenrod;
-                    min-height: 110px;
-                    border-radius: 5px;
-                    text-align: center;
-                    margin: auto;
-                }
-                .row {
-                    .pink {border : 1px solid $link2}
-                    .cyan {border : 1px solid cyan}
-                    .orange {border : 1px solid orange}
-                    .blue {border : 1px solid $links}
-                    .green {border : 1px solid greenyellow }
-                    .brown {border : 1px solid brown }
-                }
-            }
-        }
-    }
-
-    div[class="gros-button"] {
-        margin : 5% auto;
-        text-align: center;
-        button {
-            padding:0 8%;
-        }
-        button a{          
-            color: white;
-            font-weight: bold;
-            font-size: 1.3em;
-            text-decoration: none;
-        }
-    }
+    @import 'acceuil';
+    @import 'apropos';
+    @import 'realisations';
+    @import 'activites';
 }
 
-footer {
-    background-color: black;
-    min-height: 300px;
-    margin-top: 10px;
-    color: white;
-    text-align: center;
-    padding-top: 5%;
-    a {
-        color : white;
-        text-decoration: underline;
-    }
-    a:hover {
-        color : white;
-    }
-    div[class="social-media"] {
-        a {
-            // display: flex;
-            justify-content: space-between;
-            // border: 1px solid yellow;
-            width : 30%;
-            padding-right: 30px;
-            margin: auto;
-        }
-        
-        a i{
-            font-size: 1.99em;
-        }
-        .facebook {
-            color: #4267B2;
-        }
-        .twitter {
-            color: skyblue;
-        }
-        .youtube {
-            color: red;
-        }
-        .instagram {
-            color: #DD2A7B;
-        }
-    }
-}
 
 // ----------------------TABLET screen adjustments -------------------------------
 @media screen and (min-width: 760px) {
@@ -169,3 +50,5 @@ footer {
         }
     }
   }
+
+@import 'footer';

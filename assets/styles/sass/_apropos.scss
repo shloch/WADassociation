@@ -1,0 +1,215 @@
+//------apropos grid --------
+div[class="apropos-grid"] {
+    margin: 4% 0 0 0;
+    .row {
+        // border: 1px solid black !important;
+        margin: 4% 0;
+        .col {
+            // border: 1px solid black !important;
+        }
+    }
+    .g-h {
+        font-weight: bold;
+        text-align: center;
+        padding: 4% 0;
+        color: #e6722f;
+
+    }
+    
+}
+
+//-------- team photos ------------
+div[id="team-photo"] {
+    padding-top: 2%;
+    
+    opacity: 0.9;   
+    
+    div[class="grid"] {
+        background-image: url('../images/graffiti2.png');
+        .container {
+            // border: 1px solid greenyellow;
+            .p-3 {
+                // border: 1px solid goldenrod;
+                min-height: 110px;
+                border-radius: 5px;
+                text-align: center;
+                // margin: auto;
+            }
+            h2 {color: orange;}
+
+            .card {
+                // text-align: center;
+                // background-color: white !important;
+                width: 100%;
+                img {
+                    margin: auto;
+                    // border: 3px solid orange;
+                    border-radius: 12px;
+                    height: 180px;
+                    width: 62%;
+                }
+                .fabiola-text {
+                    font-size: 0.73em;
+                }
+                .fabiola-pic {
+                    height: 167px;
+                    width: 62%;
+                }
+                .micheal-title {
+                    font-size: 1.15em;
+                }
+            }
+            
+        }
+    }
+}
+
+// ----------------------TABLET screen adjustments -------------------------------
+@media screen and (min-width: 760px) {
+    div[class="apropos-grid"] {
+        .g-h {
+            font-weight: bold;
+            text-align: center;
+            padding-top: 9%;
+        }
+    }
+
+    div[id="team-photo"] {
+        div[class="grid"] {
+            .container {       
+                .card {
+                    img {
+                        height: 140px;
+                        width: 80%;
+                    }
+                    .fabiola-text {
+                        font-size: 0.73em;
+                    }
+                    .fabiola-pic {
+                        height: 97px;
+                        width: 62%;
+                    }
+                    .olivier-title {
+                        font-size: 1.015em;
+                    }
+                    .olivier-text {
+                        font-size: 0.69em;
+                    }
+                    .micheal-title {
+                        font-size: 1.29em;
+                    }
+                    .micheal-text {
+                        font-size: 0.799em;
+                    }
+                    .sean-title {
+                       margin-bottom: 20%;
+                    //    border: 1px solid red;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+  // ----------------------LAPTOP screen adjustments -------------------------------
+@media screen and (min-width: 1023px) {
+    div[class="apropos-grid"] {
+        .g-h {
+            font-weight: bold;
+            text-align: center;
+            padding-top: 5%;
+        }
+    }
+
+    div[id="team-photo"] {
+        div[class="grid"] {
+            .container {       
+                .card {
+                    img {
+                        height: 190px;
+                        width: 70%;
+                    }
+                    .fabiola-text {
+                        font-size: 0.73em;
+                    }
+                    .fabiola-pic {
+                        height: 167px;
+                        width: 70%;
+                    }
+                    .olivier-title {
+                        font-size: 1.115em;
+                    }
+                    .olivier-text {
+                        font-size: 0.69em;
+                    }
+                    .micheal-title {
+                        font-size: 1.19em;
+                    }
+                    .micheal-text {
+                        font-size: 0.799em;
+                    }
+                    .sean-title {
+                       margin-bottom: 03.3%;
+                    //    border: 1px solid red;
+                    }
+                }
+                
+            }
+        }
+    }
+  }
+
+  // ----------------------XXL LAPTOP screen adjustments -------------------------------
+
+  @media screen and (min-width: 1423px) {
+   
+    div[class="apropos-grid"] {
+        .g-h {
+            font-weight: bold;
+            text-align: center;
+            padding-top: 3%;
+        }
+    }
+
+    div[id="team-photo"] {
+        // border: 3px solid black !important;
+        div[class="grid"] {
+            .container {       
+                .card {
+                    img {
+                        height: 230px;
+                        width: 70%;
+                    }
+                    .fabiola-text {
+                        font-size: 0.73em;
+                    }
+                    .fabiola-pic {
+                        height: 217px;
+                        width: 70%;
+                    }
+                    .olivier-title {
+                        font-size: 1.115em;
+                    }
+                    .olivier-text {
+                        font-size: 1.099em;
+                    }
+                    .micheal-title {
+                        font-size: 1.19em;
+                    }
+                    .micheal-text {
+                        font-size: 1.09em;
+                    }
+                    .sean-title {
+                       margin-bottom: 03.3%;
+                    //    border: 1px solid red;
+                    }
+                    .eben-text {
+                        font-size: 1.02em;
+                    }
+                }
+                
+            }
+        }
+    }
+  }

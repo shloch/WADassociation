@@ -1,0 +1,41 @@
+footer {
+    background-color: black;
+    min-height: 300px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    a {
+        color : white;
+        text-decoration: underline;
+    }
+    a:hover {
+        color : white;
+    }
+    div[class="social-media"] {
+        a {
+            // display: flex;
+            justify-content: space-between;
+            // border: 1px solid yellow;
+            width : 30%;
+            padding-right: 30px;
+            margin: auto;
+        }
+        
+        a i{
+            font-size: 1.99em;
+        }
+        .facebook {
+            color: #4267B2;
+        }
+        .twitter {
+            color: skyblue;
+        }
+        .youtube {
+            color: red;
+        }
+        .instagram {
+            color: #DD2A7B;
+        }
+    }
+}

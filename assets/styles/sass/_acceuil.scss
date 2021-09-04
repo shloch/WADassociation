@@ -1,0 +1,44 @@
+div[id="carouselExampleCaptions"] {
+    .carousel-inner {
+        img {
+            height: 250px;
+            width: 100%;
+        }
+    }
+}
+
+div[id="quelque-mot"] {
+    padding-top: 2%;
+    div[class="quelqmot-h"] {
+        text-align: center;
+        // padding: 5% 0;
+    }
+    div[class="quelqmot-grid"] {
+        .container {
+            // border: 1px solid greenyellow;
+            .p-3 {
+                // border: 1px solid goldenrod;
+                min-height: 110px;
+                border-radius: 5px;
+                text-align: center;
+                // margin: auto;
+            }
+           
+        }
+    }
+}
+
+div[class="gros-button"] {
+    margin : 5% auto;
+    text-align: center;
+    button {
+        padding:0 8%;
+    }
+    button a{          
+        color: white;
+        font-weight: bold;
+        font-size: 1.3em;
+        text-decoration: none;
+    }
+}
+

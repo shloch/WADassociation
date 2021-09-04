@@ -1,0 +1,54 @@
+// border: 1px solid black;
+.logo {
+    height : 100%;
+    width:  170px;
+}
+#navbarSupportedContent {
+    padding-left: 12%;
+}
+.navbar {
+    background-color: white !important;
+    .nav-link {
+        color: $links;
+        
+    }
+    .active {
+        color:  $links !important;
+        font-weight: 800;
+    }
+    .link2 {
+        color: $link2 !important;
+    }
+    .nav-link:hover {
+        color: $link2;
+    }
+    .nav-item {
+        .dropdown-item {
+            color: $links;
+        }
+        .dropdown-item:hover {
+            color: $link2;
+        }
+    }
+   
+}
+
+// ----------------------XXL LAPTOP screen adjustments -------------------------------
+
+@media screen and (min-width: 1423px) {
+    #navbarSupportedContent {
+        padding-left: 18%;
+        font-size: 1.4em;
+    }
+
+}
+
+// ----------------------HD TV -------------------------------
+
+@media screen and (min-width: 2559px) {
+    #navbarSupportedContent {
+        padding-left: 28%;
+        font-size: 1.8em;
+    }
+
+}

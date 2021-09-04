@@ -1,3 +1,27 @@
+.pink {
+  border: 1px solid #cc33cc;
+}
+
+.cyan {
+  border: 1px solid cyan;
+}
+
+.orange {
+  border: 1px solid orange;
+}
+
+.blue {
+  border: 1px solid #099;
+}
+
+.green {
+  border: 1px solid greenyellow;
+}
+
+.brown {
+  border: 1px solid brown;
+}
+
 section[id=banner] .logo {
   height: 100%;
   width: 170px;
@@ -27,44 +51,36 @@ section[id=banner] .navbar .nav-item .dropdown-item {
 section[id=banner] .navbar .nav-item .dropdown-item:hover {
   color: #cc33cc;
 }
+@media screen and (min-width: 1423px) {
+  section[id=banner] #navbarSupportedContent {
+    padding-left: 18%;
+    font-size: 1.4em;
+  }
+}
+@media screen and (min-width: 2559px) {
+  section[id=banner] #navbarSupportedContent {
+    padding-left: 28%;
+    font-size: 1.8em;
+  }
+}
 
+section[id=content] {
+  @import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+}
 section[id=content] div[id=carouselExampleCaptions] .carousel-inner img {
   height: 250px;
   width: 100%;
 }
 section[id=content] div[id=quelque-mot] {
-  min-height: 300px;
-  width: 85%;
-  margin: auto;
   padding-top: 2%;
 }
 section[id=content] div[id=quelque-mot] div[class=quelqmot-h] {
   text-align: center;
-  padding: 5% 0;
 }
 section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .p-3 {
   min-height: 110px;
   border-radius: 5px;
   text-align: center;
-  margin: auto;
-}
-section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .pink {
-  border: 1px solid #cc33cc;
-}
-section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .cyan {
-  border: 1px solid cyan;
-}
-section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .orange {
-  border: 1px solid orange;
-}
-section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .blue {
-  border: 1px solid #099;
-}
-section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .green {
-  border: 1px solid greenyellow;
-}
-section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .row .brown {
-  border: 1px solid brown;
 }
 section[id=content] div[class=gros-button] {
   margin: 5% auto;
@@ -79,7 +95,202 @@ section[id=content] div[class=gros-button] button a {
   font-size: 1.3em;
   text-decoration: none;
 }
+section[id=content] div[class=apropos-grid] {
+  margin: 4% 0 0 0;
+}
+section[id=content] div[class=apropos-grid] .row {
+  margin: 4% 0;
+}
+section[id=content] div[class=apropos-grid] .g-h {
+  font-weight: bold;
+  text-align: center;
+  padding: 4% 0;
+  color: #e6722f;
+}
+section[id=content] div[id=team-photo] {
+  padding-top: 2%;
+  opacity: 0.9;
+}
+section[id=content] div[id=team-photo] div[class=grid] {
+  background-image: url("../images/graffiti2.png");
+}
+section[id=content] div[id=team-photo] div[class=grid] .container .p-3 {
+  min-height: 110px;
+  border-radius: 5px;
+  text-align: center;
+}
+section[id=content] div[id=team-photo] div[class=grid] .container h2 {
+  color: orange;
+}
+section[id=content] div[id=team-photo] div[class=grid] .container .card {
+  width: 100%;
+}
+section[id=content] div[id=team-photo] div[class=grid] .container .card img {
+  margin: auto;
+  border-radius: 12px;
+  height: 180px;
+  width: 62%;
+}
+section[id=content] div[id=team-photo] div[class=grid] .container .card .fabiola-text {
+  font-size: 0.73em;
+}
+section[id=content] div[id=team-photo] div[class=grid] .container .card .fabiola-pic {
+  height: 167px;
+  width: 62%;
+}
+section[id=content] div[id=team-photo] div[class=grid] .container .card .micheal-title {
+  font-size: 1.15em;
+}
+@media screen and (min-width: 760px) {
+  section[id=content] div[class=apropos-grid] .g-h {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 9%;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card img {
+    height: 140px;
+    width: 80%;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .fabiola-text {
+    font-size: 0.73em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .fabiola-pic {
+    height: 97px;
+    width: 62%;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .olivier-title {
+    font-size: 1.015em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .olivier-text {
+    font-size: 0.69em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .micheal-title {
+    font-size: 1.29em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .micheal-text {
+    font-size: 0.799em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .sean-title {
+    margin-bottom: 20%;
+  }
+}
+@media screen and (min-width: 1023px) {
+  section[id=content] div[class=apropos-grid] .g-h {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card img {
+    height: 190px;
+    width: 70%;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .fabiola-text {
+    font-size: 0.73em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .fabiola-pic {
+    height: 167px;
+    width: 70%;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .olivier-title {
+    font-size: 1.115em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .olivier-text {
+    font-size: 0.69em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .micheal-title {
+    font-size: 1.19em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .micheal-text {
+    font-size: 0.799em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .sean-title {
+    margin-bottom: 3.3%;
+  }
+}
+@media screen and (min-width: 1423px) {
+  section[id=content] div[class=apropos-grid] .g-h {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3%;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card img {
+    height: 230px;
+    width: 70%;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .fabiola-text {
+    font-size: 0.73em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .fabiola-pic {
+    height: 217px;
+    width: 70%;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .olivier-title {
+    font-size: 1.115em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .olivier-text {
+    font-size: 1.099em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .micheal-title {
+    font-size: 1.19em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .micheal-text {
+    font-size: 1.09em;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .sean-title {
+    margin-bottom: 3.3%;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card .eben-text {
+    font-size: 1.02em;
+  }
+}
+section[id=content] div[class=realisation-content] iframe[class=wad-youtube] {
+  width: 100%;
+  height: 320px;
+  margin: auto;
+  margin-top: 5%;
+}
+section[id=content] div[class=realisation-content] h2 {
+  text-align: center;
+  margin-top: 4%;
+}
+section[id=content] div[class=realisation-content] .picture-grid img {
+  border: 1px solid #adacac;
+}
+@media screen and (min-width: 760px) {
+  section[id=content] div[class=realisation-content] iframe[class=wad-youtube] {
+    height: 500px;
+  }
+}
+@media screen and (min-width: 1423px) {
+  section[id=content] div[class=realisation-content] iframe[class=wad-youtube] {
+    height: 600px;
+  }
+}
+section[id=content] div[id=activites] h1 {
+  font-family: "Calligraffitti", cursive;
+}
+section[id=content] div[id=activites] .orange2 {
+  color: orange;
+}
+section[id=content] div[id=activites] .pink2 {
+  color: #d154d1;
+}
+section[id=content] div[id=activites] .cyan2 {
+  color: cyan;
+}
 
+@media screen and (min-width: 760px) {
+  section[id=content] div[id=carouselExampleCaptions] .carousel-inner img {
+    height: 350px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1023px) {
+  section[id=content] div[id=carouselExampleCaptions] .carousel-inner img {
+    height: 500px;
+    width: 100%;
+  }
+}
 footer {
   background-color: black;
   min-height: 300px;
@@ -115,19 +326,6 @@ footer div[class=social-media] .youtube {
 }
 footer div[class=social-media] .instagram {
   color: #DD2A7B;
-}
-
-@media screen and (min-width: 760px) {
-  section[id=content] div[id=carouselExampleCaptions] .carousel-inner img {
-    height: 350px;
-    width: 100%;
-  }
-}
-@media screen and (min-width: 1023px) {
-  section[id=content] div[id=carouselExampleCaptions] .carousel-inner img {
-    height: 500px;
-    width: 100%;
-  }
 }
 
 /*# sourceMappingURL=main.css.map */
