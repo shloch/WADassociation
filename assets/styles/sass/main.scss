@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100&family=Great+Vibes&family=Pacifico&family=Poiret+One&family=ZCOOL+KuaiLe&display=swap');
 
 $links: #099;
 $link2: rgb(204, 51, 204);
@@ -8,8 +8,10 @@ $link2: rgb(204, 51, 204);
 .blue {border : 1px solid $links}
 .green {border : 1px solid greenyellow }
 .brown {border : 1px solid brown }
-.orange-text {color: brown; font-weight: bolder}
-
+.orange-text {color: brown;}
+h1,h2,h3,h4 {
+    font-family: 'Pacifico', cursive;
+}
 
 //------------------- header --------------------
 section[id="banner"] {
@@ -23,6 +25,13 @@ section[id="content"] {
     @import 'apropos';
     @import 'realisations';
     @import 'activites';
+   
+    
+    font-family: 'Glory', sans-serif;
+    font-size: 1.2em
+    //font-family: 'Pacifico', cursive;
+    //font-family: 'Great Vibes', cursive;
+    
 }
 
 @import 'footer';

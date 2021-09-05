@@ -1,4 +1,6 @@
 footer {
+    font-family: 'Glory', sans-serif;
+    padding : 0 5%;
     background-color: black;
     min-height: 300px;
     margin-top: 10px;
@@ -39,10 +41,33 @@ footer {
         }
     }
     div[class="join-association"] {
-        font-size: 0.8em;
+        font-size: 0.86em;
         // border: 1px solid yellow;
-        width: 60%;
+        width: 90%;
         margin: auto;
-        color: rgb(221, 83, 221);
+        color: rgb(236, 120, 236);
     }
 }
+
+
+// ----------------------TABLET screen adjustments -------------------------------
+@media screen and (min-width: 760px) {
+    div[class="join-association"] {     
+        width: 60%;
+    }
+}
+
+  // ----------------------LAPTOP screen adjustments -------------------------------
+@media screen and (min-width: 1023px) {
+    
+  }
+
+  // ----------------------XXL LAPTOP screen adjustments -------------------------------
+
+  @media screen and (min-width: 1423px) {
+    div[class="realisation-content"] {
+        iframe[class="wad-youtube"] {
+            height: 600px;
+        }
+    }
+  }

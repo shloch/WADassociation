@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@100&family=Great+Vibes&family=Pacifico&family=Poiret+One&family=ZCOOL+KuaiLe&display=swap");
 .pink {
   border: 1px solid #cc33cc;
 }
@@ -25,7 +26,10 @@
 
 .orange-text {
   color: brown;
-  font-weight: bolder;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Pacifico", cursive;
 }
 
 section[id=banner] .logo {
@@ -36,6 +40,8 @@ section[id=banner] #navbarSupportedContent {
   padding-left: 12%;
 }
 section[id=banner] .navbar {
+  font-family: "ZCOOL KuaiLe", cursive;
+  font-size: 1.3em;
   background-color: white !important;
 }
 section[id=banner] .navbar .nav-link {
@@ -72,19 +78,24 @@ section[id=banner] .navbar .nav-item .dropdown-item:hover {
 
 section[id=content] {
   @import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+  font-family: "Glory", sans-serif;
+  font-size: 1.2em;
 }
 section[id=content] div[id=hero] {
   background: black;
 }
 section[id=content] div[id=hero] video {
   opacity: 0.3;
+  -moz-opacity: 0.3;
+  -webkit-opacity: 0.3;
+  -ms-opacity: 0.3;
   min-width: 100%;
   min-height: 100%;
   width: 100%;
   height: 100%;
 }
 section[id=content] div[id=hero]:after {
-  content: "We Arts Dance Vive l’Art, Vive la Danse Discipline – solidarité - Progrès";
+  content: "We Arts Dance Vive l’Art, Vive la Danse: Discipline – solidarité - Progrès";
   font-size: 1em;
   color: #c5c2c2;
   text-align: center;
@@ -92,6 +103,7 @@ section[id=content] div[id=hero]:after {
   left: 1%;
   right: 1%;
   top: 45%;
+  font-family: "ZCOOL KuaiLe", cursive;
 }
 @media screen and (min-width: 375px) {
   section[id=content] div[id=hero]:after {
@@ -138,6 +150,7 @@ section[id=content] div[id=quelque-mot] {
 }
 section[id=content] div[id=quelque-mot] div[class=quelqmot-h] {
   text-align: center;
+  padding: 3.2% 0;
 }
 section[id=content] div[id=quelque-mot] div[class=quelqmot-grid] .container .p-3 {
   min-height: 110px;
@@ -168,6 +181,10 @@ section[id=content] div[class=apropos-grid] .g-h {
   text-align: center;
   padding: 4% 0;
   color: #e6722f;
+  font-size: 1.34em;
+}
+section[id=content] div[class=apropos-grid] h3, section[id=content] div[class=apropos-grid] h4 {
+  padding: 2% 0;
 }
 section[id=content] div[id=team-photo] {
   padding-top: 2%;
@@ -212,6 +229,9 @@ section[id=content] div[id=team-photo] div[class=grid] .container .card .micheal
   section[id=content] div[id=team-photo] div[class=grid] .container .card img {
     height: 140px;
     width: 80%;
+  }
+  section[id=content] div[id=team-photo] div[class=grid] .container .card h5 {
+    font-family: "Pacifico", cursive;
   }
   section[id=content] div[id=team-photo] div[class=grid] .container .card .fabiola-text {
     font-size: 0.73em;
@@ -305,6 +325,9 @@ section[id=content] div[id=team-photo] div[class=grid] .container .card .micheal
     font-size: 1.02em;
   }
 }
+section[id=content] div[class=realisation-content] h2 {
+  margin-bottom: 4%;
+}
 section[id=content] div[class=realisation-content] iframe[class=wad-youtube] {
   width: 100%;
   height: 320px;
@@ -342,6 +365,8 @@ section[id=content] div[id=activites] .cyan2 {
 }
 
 footer {
+  font-family: "Glory", sans-serif;
+  padding: 0 5%;
   background-color: black;
   min-height: 300px;
   margin-top: 10px;
@@ -378,10 +403,21 @@ footer div[class=social-media] .instagram {
   color: #DD2A7B;
 }
 footer div[class=join-association] {
-  font-size: 0.8em;
-  width: 60%;
+  font-size: 0.86em;
+  width: 90%;
   margin: auto;
-  color: #dd53dd;
+  color: #ec78ec;
+}
+
+@media screen and (min-width: 760px) {
+  div[class=join-association] {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1423px) {
+  div[class=realisation-content] iframe[class=wad-youtube] {
+    height: 600px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

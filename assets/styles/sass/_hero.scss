@@ -4,6 +4,9 @@ div[id="hero"] {
     background: black;
     video {
         opacity: 0.3;
+        -moz-opacity: 0.3;
+        -webkit-opacity: 0.3;
+        -ms-opacity: 0.3;
         // position: fixed;
         // top: 50%;
         // left: 50%;
@@ -18,7 +21,7 @@ div[id="hero"] {
     }
 }
 div[id="hero"]:after {
-    content: "We Arts Dance Vive l’Art, Vive la Danse Discipline – solidarité - Progrès";
+    content: "We Arts Dance Vive l’Art, Vive la Danse: Discipline – solidarité - Progrès";
     font-size: 1em;
     color:rgb(197, 194, 194);
     text-align: center;
@@ -26,6 +29,7 @@ div[id="hero"]:after {
     left: 1%;
     right:1%;
     top: 45%;
+    font-family: 'ZCOOL KuaiLe', cursive;
 }
 
 // ----------------------still phone -------------------------------

@@ -13,7 +13,12 @@ div[class="apropos-grid"] {
         text-align: center;
         padding: 4% 0;
         color: #e6722f;
+        font-size: 1.34em;
 
+    }
+    h3, h4 {
+        // border: 1px solid red;
+        padding: 2% 0;
     }
     
 }
@@ -81,6 +86,9 @@ div[id="team-photo"] {
                     img {
                         height: 140px;
                         width: 80%;
+                    }
+                    h5 {
+                        font-family: 'Pacifico', cursive;
                     }
                     .fabiola-text {
                         font-size: 0.73em;
