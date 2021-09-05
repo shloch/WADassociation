@@ -8,11 +8,14 @@ $link2: rgb(204, 51, 204);
 .blue {border : 1px solid $links}
 .green {border : 1px solid greenyellow }
 .brown {border : 1px solid brown }
+.orange-text {color: brown; font-weight: bolder}
+
 
 //------------------- header --------------------
 section[id="banner"] {
     @import 'navbar';
 }
+
 
 // ------------- Content ----------
 section[id="content"] {
@@ -21,34 +24,5 @@ section[id="content"] {
     @import 'realisations';
     @import 'activites';
 }
-
-
-// ----------------------TABLET screen adjustments -------------------------------
-@media screen and (min-width: 760px) {
-    section[id="content"] {
-        div[id="carouselExampleCaptions"] {
-            .carousel-inner {
-                img {
-                    height: 350px;
-                    width: 100%;
-                }
-            }
-        }
-    }
-  }
-
-  // ----------------------LAPTOP screen adjustments -------------------------------
-@media screen and (min-width: 1023px) {
-    section[id="content"] {
-        div[id="carouselExampleCaptions"] {
-            .carousel-inner {
-                img {
-                    height: 500px;
-                    width: 100%;
-                }
-            }
-        }
-    }
-  }
 
 @import 'footer';

@@ -1,0 +1,77 @@
+
+
+div[id="hero"] {
+    background: black;
+    video {
+        opacity: 0.3;
+        // position: fixed;
+        // top: 50%;
+        // left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: 100%;
+        height: 100%;
+        // -ms-transform: translateX(-50%) translateY(-50%);
+        // -moz-transform: translateX(-50%) translateY(-50%);
+        // -webkit-transform: translateX(-50%) translateY(-50%);
+        // transform: translateX(-50%) translateY(-50%);
+    }
+}
+div[id="hero"]:after {
+    content: "We Arts Dance Vive l’Art, Vive la Danse Discipline – solidarité - Progrès";
+    font-size: 1em;
+    color:rgb(197, 194, 194);
+    text-align: center;
+    position: absolute;
+    left: 1%;
+    right:1%;
+    top: 45%;
+}
+
+// ----------------------still phone -------------------------------
+@media screen and (min-width: 375px) {
+    div[id="hero"]:after { 
+        left: 5%;
+        right:5%;
+    }
+}
+
+// ----------------------still phone -------------------------------
+@media screen and (min-width: 425px) {
+    div[id="hero"]:after {   
+        left: 9%;
+        right:9%;
+    }
+}
+
+// ----------------------TABLET screen adjustments -------------------------------
+@media screen and (min-width: 760px) {
+    div[id="hero"]:after {
+        font-size: 1.8em;
+        left: 15%;
+        right:15%;
+        top: 65%;
+    }
+}
+
+  // ----------------------LAPTOP screen adjustments -------------------------------
+@media screen and (min-width: 1024px) {
+    div[id="hero"]:after {
+        font-size: 1em;
+        left: 15%;
+        right:15%;
+        top: 55%;
+        // color:yellow;
+    }
+}
+
+
+  // ----------------------HD screen adjustments -------------------------------
+  @media screen and (min-width: 1023px) {
+    div[id="hero"]:after {
+        font-size: 3.2em;
+        left: 15%;
+        right:15%;
+        top: 85%;
+    }
+}
