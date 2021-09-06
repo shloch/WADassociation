@@ -28,7 +28,7 @@ div[id="hero"]:after {
     position: absolute;
     left: 1%;
     right:1%;
-    top: 45%;
+    top: 30%;
     font-family: 'ZCOOL KuaiLe', cursive;
 }
 
@@ -37,6 +37,7 @@ div[id="hero"]:after {
     div[id="hero"]:after { 
         left: 5%;
         right:5%;
+        top: 45%;
     }
 }
 
@@ -71,11 +72,11 @@ div[id="hero"]:after {
 
 
   // ----------------------HD screen adjustments -------------------------------
-  @media screen and (min-width: 1023px) {
+  @media screen and (min-width: 1140px) {
     div[id="hero"]:after {
         font-size: 3.2em;
         left: 15%;
         right:15%;
-        top: 85%;
+        top: 45%;
     }
 }

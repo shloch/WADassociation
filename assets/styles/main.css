@@ -109,6 +109,7 @@ section[id=content] div[id=hero]:after {
   section[id=content] div[id=hero]:after {
     left: 5%;
     right: 5%;
+    top: 45%;
   }
 }
 @media screen and (min-width: 425px) {
@@ -130,7 +131,7 @@ section[id=content] div[id=hero]:after {
     font-size: 1em;
     left: 15%;
     right: 15%;
-    top: 45%;
+    top: 55%;
   }
 }
 @media screen and (min-width: 1140px) {
